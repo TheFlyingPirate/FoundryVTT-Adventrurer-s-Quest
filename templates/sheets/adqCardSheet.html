@@ -1,0 +1,50 @@
+<form class="{{cssClass}}" autocomplete="off">
+
+
+
+
+    <div class="card" id="card-container">
+        <div class="card-content common-bg">
+            <div class="card-top">
+                <div class="card-image">
+                    <img src="{{item.img}}" data-edit="img" alt="Card Image" />
+             
+                     <div class="card-dice-overlay flex align-middle items-center">  
+                        <img src="systems/adventurersquest/assets/imgs/rolling-dice-cup.svg"> <input class="w-full h-full" name="system.diceRoll" type="text" value="{{item.system.diceRoll}}"/>
+                        </div>
+                    
+                </div>
+                
+            
+            </div>
+            <div class="card-divider0"></div>
+            <div class="card-name align-middle" id="card-name"><input name="name" type="text" value="{{item.name}}" placeholder="{{ localize 'Name' }}"/></div>
+            <div class="card-divider1"></div>
+            <div class="card-type" id="card-type"><input class="w-full h-full text-type" name="type" type="text" value="{{item.type}}" placeholder="{{ localize 'Type' }}"/></div>
+            <div class="card-divider2"></div>
+            <div class="card-requirements grid grid-cols-4">
+                <div class="card-skill card-req flex h-full align-middle items-center" id="card-skill"><input class="w-full h-full" name="system.skill" type="text" value="{{item.system.skill}}" placeholder="{{ localize 'Skill' }}"/></div>
+                <div class="card-range card-req flex h-full align-middle items-center" id="card-range"><input class="w-full h-full" name="system.range" type="text" value="{{item.system.range}}" placeholder="{{ localize 'Range' }}"/></div>
+                <div class="card-ressource card-req flex h-full align-middle items-center" id="card-res"><input class="w-full h-full" name="system.ressources" type="text" value="{{item.system.ressources}}" placeholder="{{ localize 'Ressources' }}"/></div>
+                <div class="card-body card-req flex h-full align-middle items-center" id="card-body"><input class="w-full h-full" name="system.bodyParts" type="text" value="{{item.system.bodyParts}}" placeholder="{{ localize 'Body Parts' }}"/></div>
+            </div>
+            <div class="card-divider3"></div>
+            <div class="card-description" id="card-description">
+                {{editor item.system.description target="system.description" button=true owner=owner editable=editable class="h-full w-full"}}
+            </div>
+            <div class="card-divider4"></div>
+            <div class="card-footer grid grid-cols-4">
+                <div class="card-actions card-req flex h-full align-middle items-center" id="card-actions"><input class="w-full h-full" name="system.actions" type="text" value="{{item.system.actions}}"/></div>
+                <div class="card-cooldown card-req flex h-full align-middle items-center" id="card-cooldown"><input class="w-full h-full" name="system.cooldown" type="text" value="{{item.system.cooldown}}"></div>
+                <div class="card-tbd card-req flex h-full align-middle items-center" id="card-tbd"></div>
+                <div class="card-price card-req flex h-full align-middle items-center" id="card-price">
+                    <input class="w-full h-full" name="system.cost" type="text" value="{{item.system.cost}}">
+                </div>
+            </div>
+    
+        </div>
+        <div class="card-number align-bottom" id="card-number">
+     
+        </div>
+    </div>
+</form>

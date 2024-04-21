@@ -12,7 +12,8 @@
         "adq.js"
     ],
     "styles":[
-        "adq.css"
+        "adq.css",
+        "tailwind.css"
     ],
     "packs":[
 
@@ -21,6 +22,8 @@
 
     ],
     "gridDistance":5,
-    "gridUnits": "ft"
-    
+    "gridUnits": "ft",
+    "primaryTokenAttribute": "hp",
+    "initiative": "1d12"
+
 }

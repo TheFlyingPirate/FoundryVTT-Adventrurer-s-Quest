@@ -37,11 +37,18 @@
       position: absolute;
       top: 47%;
       bottom:53%;
-      font-size: 1.3vw;
+      font-size: 220%;
       font-weight: bold;
       align-items: center;
       text-align: center;
       font-family: Arial, Helvetica, sans-serif;
+    }
+    .card-name input{
+      height: 100%;
+      border: 0;
+      width: 100%;
+      min-width: none;
+      min-height: none;
     }
     .card-divider1{
       width: 100%;
@@ -62,6 +69,22 @@
       align-items: center;
       text-align: left;
       font-family: Arial, Helvetica, sans-serif;
+    }
+    .card-type input{
+      min-width: none;
+      min-height: none;
+      width: 100%;
+      height: 100%;
+      border: 0;
+     
+    }
+    .card-req input{
+      min-width: none;
+      min-height: none;
+      width: 100%;
+      height: 100%;
+      border: 0;
+      
     }
     .card-requirements{
      width: 100%;
@@ -111,10 +134,11 @@
       align-items: center;
       text-align: center;
       margin-right: 0.2vw;
-      font-size: 0.2vw;
+      font-size: 1.2vw;
       height: 100%;
      /* background-color: green;*/
     }
+
   
     .card-divider2{
       width: 100%;
@@ -150,6 +174,16 @@
       object-position: center; /* Center the image within the container */
      
   }
+
+  .card-dice-overlay input{
+    min-width: none;
+      min-height: none;
+      width: 100%;
+      height: 100%;
+      border: 0;
+      color: white;
+
+  }
     .card-dice-overlay{
       position: absolute;
       top: 0;
@@ -157,7 +191,7 @@
       width: 27.72%;
       height: 15.2%;
       background-color: rgba(0,0,0,0.5);
-      font-size: 0.1vw;
+      font-size: 200%;
       color: white;
       text-align: right;
       border-radius: 0.5vw;
@@ -173,6 +207,7 @@
       height:fit-content;
       float:left;
       width: 1.0em;
+      border: 0;
     }
    
   
@@ -207,9 +242,13 @@
       right: 6.8%;
       left: 6.8%;
       height:2%;
-      font-size: 0.05vw;
+      font-size: 5%;
       text-align: right;
       color:white;
       font-family: Arial, Helvetica, sans-serif;
+    }
+    .editor {
+      width: 100%;
+      height: 100%;
     }
     

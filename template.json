@@ -1,0 +1,48 @@
+{
+    "Actor":{
+    },
+    "Item":{
+        "types":[
+            "equipment",
+            "spell",
+            "consumable",
+            "companion"
+        ],
+        "templates":{
+            "card":{
+                "rarity":"common",
+                "diceRoll":"",
+                "set":"Base Set",
+                "number":"x/x",
+                "skill":"",
+                "difficulty":1,
+                "cost":0,
+                "range":"",
+                "ressources":"",
+                "bodyParts":"",
+                "description":"",
+                "actions":"",
+                "coolDown":0,
+                "consumableAmount":0,
+                "consumableUsed":0
+
+            }
+        },
+        "equipment":{
+            "templates":["card"],
+            "type":"Equipment"
+        },
+        "spell":{
+            "templates":["card"],
+            "type":"Spell"
+        },
+        "consumable":{
+            "templates":["card"],
+            "type":"Consumable"
+        },
+        "companion":{
+            "templates":["card"],
+            "type":"Companion"
+        }
+    }
+}
