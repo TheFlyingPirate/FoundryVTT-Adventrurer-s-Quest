@@ -1,0 +1,26 @@
+{
+    "name":"adventurersquest",
+    "title":"Adventurer's Quest",
+    "description":"A system for playing the Adventurer's Quest TTRPG/TCG.",
+    "author":"TheFlyingPirate",
+    "version":0.01,
+    "compatibility": {
+        "minimum": "11",
+        "verified": "11"
+    },
+    "esmodules": [
+        "adq.js"
+    ],
+    "styles":[
+        "adq.css"
+    ],
+    "packs":[
+
+    ],
+    "languages":[
+
+    ],
+    "gridDistance":5,
+    "gridUnits": "ft"
+    
+}
